@@ -1,4 +1,4 @@
-"""Phase 4 runner - execute every queries/*.sql file and save the result to outputs/tables/."""
+""" runner - execute every queries/*.sql file and save the result to outputs/tables/."""
 from pathlib import Path
 
 import duckdb

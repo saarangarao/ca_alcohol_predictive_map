@@ -1,0 +1,7 @@
+feature,PC1,PC2
+log1p_off_per_1k,-0.36,0.51
+log1p_on_per_1k,0.3,0.56
+on_share,0.59,0.22
+log_income,0.52,-0.09
+median_age,0.17,0.45
+log_pop_density,0.36,-0.41

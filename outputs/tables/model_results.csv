@@ -1,0 +1,17 @@
+run,scope,model,mae_mean,mae_sd,rmse_mean,rmse_sd,r2_mean,r2_sd
+train_without_flagged,all_zips,baseline_mean,0.5081,0.1376,0.9014,0.2788,-0.0623,0.0758
+train_without_flagged,all_zips,linear_regression,0.4272,0.1212,0.7891,0.2596,0.1921,0.0905
+train_without_flagged,all_zips,random_forest,0.427,0.1271,0.7946,0.2722,0.1841,0.1146
+train_without_flagged,all_zips,hist_gradient_boosting,0.4332,0.1249,0.8037,0.2634,0.1608,0.0937
+train_without_flagged,non_flagged_zips,baseline_mean,0.4286,0.0715,0.6431,0.1033,-0.063,0.0801
+train_without_flagged,non_flagged_zips,linear_regression,0.3525,0.0599,0.5283,0.0822,0.2815,0.0563
+train_without_flagged,non_flagged_zips,random_forest,0.3511,0.0636,0.5313,0.091,0.275,0.0769
+train_without_flagged,non_flagged_zips,hist_gradient_boosting,0.3574,0.0634,0.5392,0.0855,0.2511,0.0745
+train_with_flagged,all_zips,baseline_mean,0.5135,0.1291,0.8964,0.2743,-0.0519,0.069
+train_with_flagged,all_zips,linear_regression,0.4261,0.1157,0.7743,0.2491,0.2194,0.0788
+train_with_flagged,all_zips,random_forest,0.422,0.1123,0.7724,0.2441,0.2206,0.08
+train_with_flagged,all_zips,hist_gradient_boosting,0.4337,0.1119,0.7877,0.2402,0.1869,0.0618
+train_with_flagged,non_flagged_zips,baseline_mean,0.4347,0.0626,0.6397,0.0967,-0.0539,0.0683
+train_with_flagged,non_flagged_zips,linear_regression,0.3538,0.0567,0.5211,0.0737,0.2984,0.0543
+train_with_flagged,non_flagged_zips,random_forest,0.3502,0.0554,0.5259,0.0817,0.2862,0.082
+train_with_flagged,non_flagged_zips,hist_gradient_boosting,0.3617,0.056,0.5406,0.0763,0.2451,0.0623
