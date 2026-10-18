@@ -1,0 +1,9 @@
+check_name,passed
+zip_features has no duplicate zip5,True
+"clean_outlets has no duplicate (file_number, channel)",True
+clean_outlets contains only the two retail channels,True
+every zip5 in zip_features is exactly five digits,True
+outlets in zip_features equal clean_outlets for the same ZIPs,True
+every outlet is accounted for: kept + below floor + no Census match = clean_outlets,True
+no ZIP in zip_features is below the population floor (keep in sync with POP_FLOOR),True
+densities are never NULL or negative,True

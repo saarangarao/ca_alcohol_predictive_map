@@ -1,0 +1,85 @@
+license_type,channel,description
+20,OFF_SALE,Off-Sale Beer & Wine
+21,OFF_SALE,Off-Sale General
+40,ON_SALE_CORE,On-Sale Beer
+41,ON_SALE_CORE,On-Sale Beer & Wine - Eating Place
+42,ON_SALE_CORE,On-Sale Beer & Wine - Public Premises
+47,ON_SALE_CORE,On-Sale General - Eating Place
+48,ON_SALE_CORE,On-Sale General - Public Premises
+61,ON_SALE_CORE,On-Sale Beer - Public Premises
+49,ON_SALE_OTHER,On-Sale General - Seasonal
+59,ON_SALE_OTHER,On-Sale Beer & Wine - Seasonal
+60,ON_SALE_OTHER,On-Sale Beer - Seasonal
+70,ON_SALE_OTHER,On-Sale General - Restrictive Service
+75,ON_SALE_OTHER,Brewpub-Restaurant
+90,ON_SALE_OTHER,On-Sale General - Music Venue
+99,ON_SALE_OTHER,On-Sale General for Special Use
+63,ON_SALE_OTHER,Other on-sale (see ABC types page)
+64,ON_SALE_OTHER,Other on-sale (see ABC types page)
+65,ON_SALE_OTHER,Other on-sale (see ABC types page)
+67,ON_SALE_OTHER,Other on-sale (see ABC types page)
+69,ON_SALE_OTHER,Other on-sale (see ABC types page)
+71,ON_SALE_OTHER,Other on-sale (see ABC types page)
+72,ON_SALE_OTHER,Other on-sale (see ABC types page)
+78,ON_SALE_OTHER,Other on-sale (see ABC types page)
+80,ON_SALE_OTHER,Other on-sale (see ABC types page)
+87,ON_SALE_OTHER,Other on-sale (see ABC types page)
+88,ON_SALE_OTHER,Other on-sale (see ABC types page)
+50,CLUB,On-Sale General Club
+51,CLUB,Club
+52,CLUB,Veteran's Club
+57,CLUB,Special On-Sale General
+02,PRODUCER_RETAIL,Winegrower
+23,PRODUCER_RETAIL,Small Beer Manufacturer
+74,PRODUCER_RETAIL,Craft Distiller
+01,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+03,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+04,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+05,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+06,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+07,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+08,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+09,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+10,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+11,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+12,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+13,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+14,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+15,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+16,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+17,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+18,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+19,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+22,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+24,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+25,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+26,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+27,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+28,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+29,EXCLUDE,Non-retail: manufacturer/importer/wholesaler/warehouse/broker/shipper
+31,EXCLUDE,Temporary daily event license
+34,EXCLUDE,Temporary daily event license
+37,EXCLUDE,Temporary daily event license
+43,EXCLUDE,Train/boat/airplane/vessel license
+44,EXCLUDE,Train/boat/airplane/vessel license
+45,EXCLUDE,Train/boat/airplane/vessel license
+46,EXCLUDE,Train/boat/airplane/vessel license
+53,EXCLUDE,Train/boat/airplane/vessel license
+54,EXCLUDE,Train/boat/airplane/vessel license
+55,EXCLUDE,Train/boat/airplane/vessel license
+56,EXCLUDE,Train/boat/airplane/vessel license
+62,EXCLUDE,Train/boat/airplane/vessel license
+58,EXCLUDE,Permit or ancillary authorization
+66,EXCLUDE,Permit or ancillary authorization
+68,EXCLUDE,Permit or ancillary authorization
+77,EXCLUDE,Permit or ancillary authorization
+79,EXCLUDE,Permit or ancillary authorization
+81,EXCLUDE,Permit or ancillary authorization
+82,EXCLUDE,Permit or ancillary authorization
+83,EXCLUDE,Permit or ancillary authorization
+84,EXCLUDE,Permit or ancillary authorization
+85,EXCLUDE,Permit or ancillary authorization
+86,EXCLUDE,Permit or ancillary authorization
+91,EXCLUDE,Permit or ancillary authorization
+93,EXCLUDE,Permit or ancillary authorization
+94,EXCLUDE,Permit or ancillary authorization

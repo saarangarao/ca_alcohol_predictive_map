@@ -1,0 +1,59 @@
+county,outlets_off,outlets_on_core,on_share,state_on_share,diff_vs_state
+San Francisco County,667.0,2498.0,0.789,0.623,0.166
+Alpine County,8.0,22.0,0.733,0.623,0.11
+Mono County,37.0,100.0,0.73,0.623,0.107
+San Mateo County,418.0,1127.0,0.729,0.623,0.106
+Santa Clara County,914.0,2265.0,0.712,0.623,0.09
+Nevada County,76.0,185.0,0.709,0.623,0.086
+Marin County,227.0,537.0,0.703,0.623,0.08
+Inyo County,6.0,14.0,0.7,0.623,0.077
+Placer County,268.0,621.0,0.699,0.623,0.076
+San Luis Obispo County,277.0,601.0,0.685,0.623,0.062
+Alameda County,966.0,2058.0,0.681,0.623,0.058
+El Dorado County,149.0,305.0,0.672,0.623,0.049
+Orange County,1721.0,3528.0,0.672,0.623,0.049
+San Diego County,1995.0,4005.0,0.668,0.623,0.045
+Santa Barbara County,380.0,725.0,0.656,0.623,0.033
+Sacramento County,892.0,1675.0,0.653,0.623,0.03
+Contra Costa County,600.0,1131.0,0.653,0.623,0.03
+Amador County,45.0,84.0,0.651,0.623,0.028
+Santa Cruz County,229.0,421.0,0.648,0.623,0.025
+Humboldt County,133.0,234.0,0.638,0.623,0.015
+Tuolumne County,58.0,102.0,0.638,0.623,0.015
+Monterey County,380.0,641.0,0.628,0.623,0.005
+Los Angeles County,5790.0,9349.0,0.618,0.623,-0.005
+Calaveras County,44.0,70.0,0.614,0.623,-0.009
+Ventura County,578.0,918.0,0.614,0.623,-0.009
+Mariposa County,12.0,19.0,0.613,0.623,-0.01
+Yolo County,145.0,229.0,0.612,0.623,-0.011
+San Benito County,38.0,57.0,0.6,0.623,-0.023
+Plumas County,34.0,50.0,0.595,0.623,-0.028
+Riverside County,1393.0,2008.0,0.59,0.623,-0.033
+Mendocino County,118.0,168.0,0.587,0.623,-0.036
+Del Norte County,24.0,34.0,0.586,0.623,-0.037
+Solano County,311.0,394.0,0.559,0.623,-0.064
+Butte County,193.0,241.0,0.555,0.623,-0.068
+Sonoma County,635.0,764.0,0.546,0.623,-0.077
+Shasta County,174.0,204.0,0.54,0.623,-0.083
+Lake County,72.0,83.0,0.535,0.623,-0.087
+Stanislaus County,482.0,548.0,0.532,0.623,-0.091
+Siskiyou County,63.0,71.0,0.53,0.623,-0.093
+Sutter County,82.0,92.0,0.529,0.623,-0.094
+San Bernardino County,1452.0,1569.0,0.519,0.623,-0.104
+Trinity County,22.0,22.0,0.5,0.623,-0.123
+Sierra County,2.0,2.0,0.5,0.623,-0.123
+San Joaquin County,602.0,593.0,0.496,0.623,-0.127
+Glenn County,37.0,35.0,0.486,0.623,-0.137
+Kern County,768.0,721.0,0.484,0.623,-0.139
+Fresno County,793.0,740.0,0.483,0.623,-0.14
+Modoc County,14.0,13.0,0.481,0.623,-0.142
+Lassen County,35.0,32.0,0.478,0.623,-0.145
+Merced County,231.0,198.0,0.462,0.623,-0.161
+Tehama County,71.0,60.0,0.458,0.623,-0.165
+Tulare County,447.0,350.0,0.439,0.623,-0.184
+Colusa County,37.0,28.0,0.431,0.623,-0.192
+Madera County,145.0,107.0,0.425,0.623,-0.198
+Imperial County,140.0,100.0,0.417,0.623,-0.206
+Kings County,129.0,83.0,0.392,0.623,-0.231
+Yuba County,84.0,53.0,0.387,0.623,-0.236
+Napa County,465.0,257.0,0.356,0.623,-0.267

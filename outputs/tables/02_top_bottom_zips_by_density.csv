@@ -1,0 +1,41 @@
+side,rank,zip5,city,county,population,outlets_off,off_per_1k,visitor_heavy
+lowest,1,92617,IRVINE,Orange County,24017,0,0.0,False
+lowest,2,91501,BURBANK,Los Angeles County,19016,0,0.0,False
+lowest,3,91108,SAN MARINO,Los Angeles County,12401,0,0.0,False
+lowest,4,92055,,San Diego County,10831,0,0.0,False
+lowest,5,95064,SANTA CRUZ,Santa Cruz County,10168,0,0.0,False
+lowest,6,92310,,San Bernardino County,8419,0,0.0,False
+lowest,7,93410,,San Luis Obispo County,7396,0,0.0,False
+lowest,8,93737,MADERA,Fresno County,7279,0,0.0,False
+lowest,9,92093,LA JOLLA,San Diego County,7167,0,0.0,False
+lowest,10,95672,EL DORADO HILLS,El Dorado County,5764,0,0.0,False
+lowest,11,94720,BERKELEY,Alameda County,5763,0,0.0,False
+lowest,12,93106,SANTA BARBARA,Santa Barbara County,5418,0,0.0,False
+lowest,13,95655,MATHER,Sacramento County,4901,0,0.0,False
+lowest,14,92136,,San Diego County,4573,0,0.0,False
+lowest,15,95671,,Sacramento County,4432,0,0.0,False
+lowest,16,92278,,San Bernardino County,3913,0,0.0,False
+lowest,17,94129,SAUSALITO,San Francisco County,3836,0,0.0,False
+lowest,18,93437,,Santa Barbara County,3477,0,0.0,False
+lowest,19,93581,,Kern County,3188,0,0.0,False
+lowest,20,92179,,San Diego County,3150,0,0.0,False
+highest,1,94574,SAINT HELENA,Napa County,7457,84,11.26,True
+highest,2,94515,CALISTOGA,Sonoma County,6946,57,8.21,True
+highest,3,96051,LAKEHEAD,Shasta County,1070,8,7.48,True
+highest,4,93206,BUTTONWILLOW,Kern County,1898,13,6.85,True
+highest,5,95387,WESTLEY,Stanislaus County,1032,6,5.81,True
+highest,6,93239,KETTLEMAN CITY,Kings County,1461,8,5.48,True
+highest,7,96103,BLAIRSDEN,Plumas County,1112,6,5.4,True
+highest,8,93249,LOST HILLS,Kern County,2243,12,5.35,True
+highest,9,93441,LOS OLIVOS,Santa Barbara County,1134,6,5.29,True
+highest,10,95641,ISLETON,Sacramento County,2214,11,4.97,True
+highest,11,95441,GEYSERVILLE,Sonoma County,1648,8,4.85,True
+highest,12,93920,BIG SUR,Monterey County,1464,7,4.78,True
+highest,13,95448,HEALDSBURG,Sonoma County,16077,76,4.73,True
+highest,14,94923,BODEGA BAY,Sonoma County,1483,7,4.72,True
+highest,15,95442,GLEN ELLEN,Sonoma County,3449,16,4.64,True
+highest,16,92315,BIG BEAR LAKE,San Bernardino County,5215,24,4.6,True
+highest,17,95962,OREGON HOUSE,Yuba County,1110,5,4.5,True
+highest,18,90021,LOS ANGELES,Los Angeles County,2897,13,4.49,True
+highest,19,93440,LOS ALAMOS,Santa Barbara County,1185,5,4.22,True
+highest,20,95465,OCCIDENTAL,Sonoma County,1203,5,4.16,True
