@@ -7,6 +7,11 @@ DB = "data/market_map.duckdb"
 # i.e. above Q3 + FENCE_K * IQR (Tukey's fence; 3 = far out, 1.5 = merely unusual).
 FENCE_K = 3.0
 
+# ZIPs added to the flag BY HAND, after the first modelling run (Phase 6) showed them with the
+# largest residuals: Napa city, wine-country tourism. Kept apart from the rule so the README can
+# say exactly what was added and when; visitor_heavy = rule OR manual.
+MANUAL_VISITOR_ZIPS = ("94558", "94559")
+
 
 def build_zip_city(con):
     """A human-readable label for each ZIP (most common premise city). A label only, never a join key."""
@@ -21,6 +26,7 @@ def build_zip_city(con):
 
 def build_zip_features(con):
     """3.1 - 3.3 - densities, log transforms and the visitor-heavy flag."""
+    manual = ", ".join(f"'{z}'" for z in MANUAL_VISITOR_ZIPS)
     con.sql(f"""
         CREATE OR REPLACE TABLE zip_features AS
         WITH base AS (
@@ -44,16 +50,22 @@ def build_zip_features(con):
                    quantile_cont(ln(1 + on_per_1k),  0.75) AS on_q3
             FROM base
         )
-        SELECT b.*,
-               ln(b.population)        AS log_population,
-               ln(b.median_income)     AS log_income,
-               ln(b.pop_density)       AS log_pop_density,
-               ln(1 + b.off_per_1k)    AS log1p_off_per_1k,
-               ln(1 + b.on_per_1k)     AS log1p_on_per_1k,
-               (   ln(1 + b.off_per_1k) > f.off_q3 + {FENCE_K} * (f.off_q3 - f.off_q1)
-                OR ln(1 + b.on_per_1k)  > f.on_q3  + {FENCE_K} * (f.on_q3  - f.on_q1)) AS visitor_heavy
-        FROM base AS b
-        CROSS JOIN fences AS f
+        ,
+        scored AS (
+            SELECT b.*,
+                   ln(b.population)        AS log_population,
+                   ln(b.median_income)     AS log_income,
+                   ln(b.pop_density)       AS log_pop_density,
+                   ln(1 + b.off_per_1k)    AS log1p_off_per_1k,
+                   ln(1 + b.on_per_1k)     AS log1p_on_per_1k,
+                   (   ln(1 + b.off_per_1k) > f.off_q3 + {FENCE_K} * (f.off_q3 - f.off_q1)
+                    OR ln(1 + b.on_per_1k)  > f.on_q3  + {FENCE_K} * (f.on_q3  - f.on_q1)) AS visitor_heavy_rule,
+                   b.zip5 IN ({manual})    AS visitor_heavy_manual
+            FROM base AS b
+            CROSS JOIN fences AS f
+        )
+        SELECT *, (visitor_heavy_rule OR visitor_heavy_manual) AS visitor_heavy
+        FROM scored
     """)
 
 

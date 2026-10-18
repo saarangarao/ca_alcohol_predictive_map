@@ -1,0 +1,6 @@
+model,mae_mean,mae_sd,rmse_mean,rmse_sd,r2_mean,r2_sd,seconds_mean,seconds_sd
+linear_regression (reference),0.349,0.0583,0.5204,0.0716,0.2868,0.0445,0.0099,0.0083
+"random_forest, 1000 trees",0.3426,0.0603,0.5137,0.0751,0.3062,0.0477,13.5395,2.8355
+"extra_trees, 1000 trees",0.3437,0.0604,0.5197,0.0774,0.2902,0.0554,5.6155,0.3721
+"gradient_boosting, 24-point grid",0.3524,0.0608,0.53,0.0765,0.26,0.0702,8.9892,2.0669
+poisson_count_model (offset = population),0.4154,0.1017,0.6401,0.1354,-0.069,0.2019,0.0779,0.0058

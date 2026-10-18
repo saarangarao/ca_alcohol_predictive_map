@@ -1,0 +1,7 @@
+archetype,n_zips,mean_residual,median_residual,sd_residual,pct_over_predicted,mean_z
+"1: Lower-income, low-density, store-heavy",215,0.163,0.136,0.66,58.605,0.408
+"2: Sparse, older towns rich in bars and restaurants",160,0.462,0.404,0.831,73.125,1.018
+"3: Dense, middle-income, few outlets per resident",370,-0.07,-0.077,0.221,33.243,-0.476
+"4: Higher-income, dense, bar-and-restaurant scene",231,0.222,0.189,0.323,77.489,1.478
+"5: Affluent suburbs, few outlets of either kind",372,-0.132,-0.117,0.274,29.032,-0.699
+not clustered (missing feature),43,-0.465,-0.283,0.646,11.628,-0.833

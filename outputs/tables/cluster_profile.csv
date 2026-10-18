@@ -1,6 +1,6 @@
 cluster,n_zips,population,off_per_1k,on_per_1k,on_share,median_income,median_age,pop_density,typical_zips,name
-1,208,2620355,1.16,0.63,0.33,66207.5,35.7,87.97,95965 Oroville; 92276 Thousand Palms; 95215 Stockton; 95963 Orland; 92311 Barstow,"Lower-income, low-density, store-heavy"
-2,159,1145060,1.44,2.36,0.64,80372.0,51.9,50.4,93023 Ojai; 95536 Ferndale; 95971 Quincy; 96093 Weaverville; 95437 Fort Bragg,"Sparse, older towns rich in bars and restaurants"
-3,372,16416435,0.59,0.52,0.45,82059.0,35.7,5349.3,91406 Van Nuys; 91768 Pomona; 91762 Ontario; 95368 Salida; 94806 San Pablo,"Dense, middle-income, few outlets per resident"
-4,236,7202181,0.78,2.31,0.75,105143.5,38.95,6200.25,95678 Roseville; 92626 Costa Mesa; 92111 San Diego; 94901 San Rafael; 92591 Temecula,"Higher-income, dense, bar-and-restaurant scene"
-5,375,11551505,0.45,0.85,0.66,136705.0,42.5,2518.43,91320 Thousand Oaks; 92807 Anaheim; 94546 Castro Valley; 94587 Union City; 91902 Bonita,"Affluent suburbs, few outlets of either kind"
+1,215,2867529,1.07,0.6,0.33,67083.0,35.5,92.11,95965 Oroville; 92276 Thousand Palms; 95215 Stockton; 93637 Madera; 95901 Marysville,"Lower-income, low-density, store-heavy"
+2,160,1092324,1.45,2.32,0.63,79525.5,51.8,45.05,93023 Ojai; 95536 Ferndale; 95971 Quincy; 96093 Weaverville; 95437 Fort Bragg,"Sparse, older towns rich in bars and restaurants"
+3,370,16569449,0.59,0.52,0.45,82867.5,35.85,5430.94,91762 Ontario; 91406 Van Nuys; 94806 San Pablo; 91768 Pomona; 95368 Salida,"Dense, middle-income, few outlets per resident"
+4,231,6951405,0.79,2.38,0.75,105236.0,39.0,6242.76,95678 Roseville; 92626 Costa Mesa; 92111 San Diego; 94901 San Rafael; 90291 Venice,"Higher-income, dense, bar-and-restaurant scene"
+5,372,11363458,0.45,0.88,0.66,136929.0,42.65,2529.08,91320 Thousand Oaks; 92807 Anaheim; 94546 Castro Valley; 94587 Union City; 91902 Bonita,"Affluent suburbs, few outlets of either kind"

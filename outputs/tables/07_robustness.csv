@@ -1,0 +1,15 @@
+finding,check,variant,result,survives
+F1: higher-income ZIPs have fewer stores and more bars/restaurants per resident,baseline,"floor 1,000 (main)",off per 1k Q1->Q5: 0.85->0.52; on per 1k: 0.94->1.37,True
+F1: higher-income ZIPs have fewer stores and more bars/restaurants per resident,flagged ZIPs removed,"floor 1,000",off per 1k Q1->Q5: 0.84->0.50; on per 1k: 0.90->1.34,True
+F2: demographics explain about 30% of held-out variation; the forest does not beat linear,baseline,"floor 1,000 (main)","linear R2 0.287, forest R2 0.283",True
+F1: higher-income ZIPs have fewer stores and more bars/restaurants per resident,population floor,"floor 500 (1,531 ZIPs)",off per 1k Q1->Q5: 0.86->0.52; on per 1k: 0.96->1.38,True
+F2: demographics explain about 30% of held-out variation; the forest does not beat linear,population floor,"floor 500 (1,531 ZIPs)","linear R2 0.271, forest R2 0.272",True
+F1: higher-income ZIPs have fewer stores and more bars/restaurants per resident,population floor,"floor 2,000 (1,292 ZIPs)",off per 1k Q1->Q5: 0.82->0.52; on per 1k: 0.91->1.40,True
+F2: demographics explain about 30% of held-out variation; the forest does not beat linear,population floor,"floor 2,000 (1,292 ZIPs)","linear R2 0.269, forest R2 0.264",True
+F3: density and income carry the predictive signal,predictor set,density + income only,linear R2 0.264 (all four: 0.287),True
+F3: density and income carry the predictive signal,predictor set,without population,linear R2 0.282 (all four: 0.287),True
+F3: density and income carry the predictive signal,predictor set,without age,linear R2 0.279 (all four: 0.287),True
+"F4: sparse, older towns are the most over-served archetype",clusters,k = 4,"agreement with main clusters (ARI) 0.67; silhouette 0.21; top-residual cluster: 179 ZIPs, median density 59/sq mi, median age 51",True
+"F4: sparse, older towns are the most over-served archetype",clusters,k = 6,"agreement with main clusters (ARI) 0.82; silhouette 0.21; top-residual cluster: 106 ZIPs, median density 35/sq mi, median age 52",True
+"F4: sparse, older towns are the most over-served archetype",clusters,"k = 5, without on_share","agreement with main clusters (ARI) 0.70; silhouette 0.21; top-residual cluster: 164 ZIPs, median density 41/sq mi, median age 52",True
+"F4: sparse, older towns are the most over-served archetype",clusters,"k = 5, outlet and density features only","agreement with main clusters (ARI) 0.49; silhouette 0.26; top-residual cluster: 135 ZIPs, median density 38/sq mi, median age 48",True

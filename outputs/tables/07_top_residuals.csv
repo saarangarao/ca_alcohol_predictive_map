@@ -1,0 +1,61 @@
+ranking,side,rank,zip5,city,county,cluster,population,outlets_off,expected,residual_rf,z
+per_1k_residual,over,1,94060,PESCADERO,San Mateo County,1,1465.0,5,1.104,2.659,3.707
+per_1k_residual,over,2,93651,PRATHER,Fresno County,1,1489.0,5,1.05,2.653,3.855
+per_1k_residual,over,3,92230,CABAZON,Riverside County,2,1887.0,7,2.023,2.638,3.5
+per_1k_residual,over,4,90058,LOS ANGELES,Los Angeles County,1,3585.0,14,4.708,2.592,4.282
+per_1k_residual,over,5,96057,MCCLOUD,Siskiyou County,2,1025.0,4,1.539,2.401,1.984
+per_1k_residual,over,6,92518,RIVERSIDE,Riverside County,2,1260.0,4,0.994,2.386,3.016
+per_1k_residual,over,7,95548,KLAMATH,Del Norte County,2,1024.0,4,1.652,2.293,1.827
+per_1k_residual,over,8,95469,POTTER VALLEY,Mendocino County,2,1315.0,5,2.033,2.256,2.081
+per_1k_residual,over,9,94599,YOUNTVILLE,Napa County,2,3348.0,11,3.487,2.244,4.024
+per_1k_residual,over,10,96020,CHESTER,Plumas County,2,2222.0,8,3.084,2.212,2.799
+per_1k_residual,over,11,96146,OLYMPIC VALLEY,Placer County,2,1154.0,3,0.515,2.153,3.46
+per_1k_residual,over,12,94508,ANGWIN,Napa County,1,3495.0,10,2.748,2.075,4.375
+per_1k_residual,over,13,92004,BORREGO SPRINGS,San Diego County,2,3007.0,11,4.899,2.029,2.756
+per_1k_residual,over,14,95686,THORNTON,San Joaquin County,1,1171.0,4,1.718,1.949,1.741
+per_1k_residual,over,15,92590,TEMECULA,Riverside County,2,5089.0,15,5.09,1.947,4.393
+per_1k_residual,under,1,95389,,Mariposa County,,2181.0,0,3.968,-1.819,-1.992
+per_1k_residual,under,2,93518,CALIENTE,Kern County,2,1205.0,0,2.015,-1.672,-1.419
+per_1k_residual,under,3,92386,SUGARLOAF,San Bernardino County,5,2042.0,0,3.412,-1.671,-1.847
+per_1k_residual,under,4,93928,,Monterey County,,1175.0,0,1.959,-1.667,-1.4
+per_1k_residual,under,5,93258,,Tulare County,,1398.0,0,2.148,-1.537,-1.466
+per_1k_residual,under,6,92242,EARP,San Bernardino County,2,1359.0,1,2.991,-1.465,-1.151
+per_1k_residual,under,7,95549,,Humboldt County,,1024.0,0,1.454,-1.42,-1.206
+per_1k_residual,under,8,95652,MCCLELLAN,Sacramento County,1,1486.0,1,3.003,-1.348,-1.156
+per_1k_residual,under,9,92285,LANDERS,San Bernardino County,1,2764.0,1,4.712,-1.343,-1.71
+per_1k_residual,under,10,92282,,Riverside County,,1419.0,0,1.893,-1.334,-1.376
+per_1k_residual,under,11,95538,,Del Norte County,,1158.0,0,1.533,-1.324,-1.238
+per_1k_residual,under,12,93667,TOLLHOUSE,Fresno County,5,2218.0,0,2.931,-1.322,-1.712
+per_1k_residual,under,13,95635,GREENWOOD,El Dorado County,5,1298.0,0,1.701,-1.311,-1.304
+per_1k_residual,under,14,96035,GERBER,Tehama County,1,3326.0,1,4.964,-1.192,-1.779
+per_1k_residual,under,15,93544,,Los Angeles County,,1027.0,0,1.217,-1.185,-1.103
+poisson_z,over,1,94110,SAN FRANCISCO,San Francisco County,4,66865.0,76,30.391,0.682,8.273
+poisson_z,over,2,95425,CLOVERDALE,Sonoma County,2,10978.0,29,8.189,1.896,7.273
+poisson_z,over,3,95476,SONOMA,Sonoma County,2,35196.0,62,25.875,1.026,7.102
+poisson_z,over,4,94117,SAN FRANCISCO,San Francisco County,4,36198.0,43,16.05,0.745,6.727
+poisson_z,over,5,95492,WINDSOR,Sonoma County,4,27429.0,39,14.279,0.901,6.542
+poisson_z,over,6,93940,MONTEREY,Monterey County,4,30605.0,47,19.232,0.907,6.332
+poisson_z,over,7,94510,BENICIA,Solano County,2,26749.0,41,16.232,0.926,6.147
+poisson_z,over,8,95010,CAPITOLA,Santa Cruz County,4,8707.0,20,5.88,1.622,5.823
+poisson_z,over,9,94123,SAN FRANCISCO,San Francisco County,4,24054.0,28,9.796,0.757,5.816
+poisson_z,over,10,93101,SANTA BARBARA,Santa Barbara County,4,31554.0,46,20.239,0.816,5.726
+poisson_z,over,11,92860,NORCO,Riverside County,4,25109.0,35,13.776,0.845,5.718
+poisson_z,over,12,92661,NEWPORT BEACH,Orange County,4,3079.0,6,0.834,1.678,5.656
+poisson_z,over,13,94114,SAN FRANCISCO,San Francisco County,4,33020.0,35,14.618,0.617,5.331
+poisson_z,over,14,94133,SAN FRANCISCO,San Francisco County,4,23804.0,35,14.885,0.845,5.214
+poisson_z,over,15,95403,SANTA ROSA,Sonoma County,3,45806.0,52,25.865,0.571,5.139
+poisson_z,under,1,93619,CLOVIS,Fresno County,5,55610.0,7,34.727,-0.499,-4.705
+poisson_z,under,2,90044,LOS ANGELES,Los Angeles County,3,94830.0,31,66.552,-0.375,-4.358
+poisson_z,under,3,95835,SACRAMENTO,Sacramento County,5,42004.0,4,25.13,-0.503,-4.215
+poisson_z,under,4,92336,FONTANA,San Bernardino County,3,105517.0,28,59.914,-0.302,-4.123
+poisson_z,under,5,93535,LANCASTER,Los Angeles County,3,79409.0,24,54.103,-0.379,-4.093
+poisson_z,under,6,92555,MORENO VALLEY,Riverside County,3,45978.0,8,29.927,-0.477,-4.008
+poisson_z,under,7,91402,PANORAMA CITY,Los Angeles County,3,65754.0,19,46.09,-0.412,-3.99
+poisson_z,under,8,90008,LOS ANGELES,Los Angeles County,3,33252.0,6,26.491,-0.616,-3.981
+poisson_z,under,9,95757,ELK GROVE,Sacramento County,5,56764.0,8,29.3,-0.375,-3.935
+poisson_z,under,10,95341,MERCED,Merced County,3,36385.0,9,30.784,-0.599,-3.926
+poisson_z,under,11,91913,CHULA VISTA,San Diego County,3,57721.0,9,30.392,-0.371,-3.88
+poisson_z,under,12,92251,IMPERIAL,Imperial County,3,27454.0,5,23.094,-0.659,-3.765
+poisson_z,under,13,92620,IRVINE,Orange County,5,61631.0,11,31.545,-0.333,-3.658
+poisson_z,under,14,95973,CHICO,Butte County,5,39031.0,10,29.705,-0.505,-3.615
+poisson_z,under,15,94582,SAN RAMON,Contra Costa County,5,47424.0,5,21.906,-0.356,-3.612

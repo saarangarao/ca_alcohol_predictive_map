@@ -1,0 +1,6 @@
+metric,value
+Stockton ZIPs,11.0
+archetype compared against,3.0
+Stockton mean residual (per 1k),-0.044
+same-archetype pool mean residual,-0.072
+share of random same-size samples at or below Stockton,0.66

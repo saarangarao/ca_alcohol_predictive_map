@@ -1,0 +1,5 @@
+population_band,n_zips,sd_residual_per_1k,sd_z
+under 3k,182,1.014,1.213
+3k-10k,206,0.649,1.591
+10k-30k,395,0.331,1.739
+over 30k,608,0.238,2.009

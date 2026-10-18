@@ -55,6 +55,8 @@ Built by `src/ingest_abc.py` (Phase 1), `src/ingest_acs.py` (Phase 2) and `src/b
 | pop_density | population / land_sqmi | people per square mile | derived |
 | log_population, log_income, log_pop_density | natural log; log_income is NULL where income is NULL | - | derived |
 | log1p_off_per_1k, log1p_on_per_1k | ln(1 + density) | - | derived |
-| visitor_heavy | true if either log1p density exceeds Q3 + 3 x IQR (Tukey far-out fence, FENCE_K in build_features.py); flags ZIPs whose outlets serve non-residents (tourists, travelers, downtown workers). Flagged, never deleted. 26 ZIPs. | boolean | derived |
+| visitor_heavy_rule | true if either log1p density exceeds Q3 + 3 x IQR (Tukey far-out fence, FENCE_K in build_features.py); flags ZIPs whose outlets serve non-residents (tourists, travelers, downtown workers). 26 ZIPs. | boolean | derived |
+| visitor_heavy_manual | true for ZIPs added by hand (MANUAL_VISITOR_ZIPS in build_features.py): 94558 and 94559 (Napa city), added AFTER the first modelling run showed them with the largest residuals. Disclose this in the README. | boolean | analyst |
+| visitor_heavy | visitor_heavy_rule OR visitor_heavy_manual; flagged, never deleted. 28 ZIPs. | boolean | derived |
 
 Known gaps: median_income is NULL for 28 ZIPs; on_share is NULL for the 31 ZIPs with zero outlets; city is NULL for those same ZIPs.
