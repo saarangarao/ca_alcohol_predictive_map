@@ -5,9 +5,9 @@
 --            (quintile 1 = lowest income, 5 = highest), then group and summarize.
 -- Note:      "pooled" density = total outlets / total population in the group. The median of the
 --            ZIP-level ratios is shown beside it because a few extreme ZIPs can distort pooled values.
---            Ties at the 250,000 top-code are split arbitrarily between quintiles.
+--            Ties (for example the 250,000 top-code) are broken by zip5, so the result is repeatable.
 WITH ranked AS (
-    SELECT *, ntile(5) OVER (ORDER BY median_income) AS income_quintile
+    SELECT *, ntile(5) OVER (ORDER BY median_income, zip5) AS income_quintile
     FROM zip_features
     WHERE median_income IS NOT NULL
 )
