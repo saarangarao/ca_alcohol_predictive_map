@@ -15,6 +15,7 @@ import pandas as pd
 from matplotlib.cm import ScalarMappable
 from matplotlib.colors import LinearSegmentedColormap, Normalize
 from matplotlib.patheffects import withStroke
+from matplotlib.lines import Line2D
 
 from cluster import BASE, INK, INK2, MUTED, SERIES, SURFACE, setup_fonts, style_axes
 
@@ -137,7 +138,15 @@ def plot_residual_map(df, path, clip=2.0):
     style_axes(ax)
     title_block(ax, "Where off-sale outlet counts run above or below what demographics predict",
                 "Out-of-fold random-forest residuals, one dot per ZIP centroid; triangles are visitor-heavy ZIPs")
-
+    handles = [
+    Line2D([], [], marker="o", color="w", linestyle="None",
+           markerfacecolor=DIVERGING(0.0), markeredgecolor=SURFACE,
+           markersize=8, label="ZIP centroid"),
+    Line2D([], [], marker="^", color="w", linestyle="None",
+           markerfacecolor=DIVERGING(1.0), markeredgecolor=SURFACE,
+           markersize=9, label="Visitor-heavy ZIP"),
+]
+    ax.legend(handles=handles, loc="lower left", fontsize=8.5, framealpha=0.9)
     cbar = fig.colorbar(ScalarMappable(norm=norm, cmap=DIVERGING), ax=ax, orientation="horizontal",
                         fraction=0.035, pad=0.09, ticks=[-clip, -clip / 2, 0, clip / 2, clip])
     cbar.ax.set_xticklabels([f"≤ {-clip:g}", f"{-clip / 2:g}", "0", f"+{clip / 2:g}", f"≥ +{clip:g}"])

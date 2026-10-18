@@ -156,6 +156,7 @@ queries/    01_*.sql ... 07_*.sql   documented SQL analysis layer, run by src/ru
 tests/      channel mapping, deduplication and ZIP cleaning
 data/reference/channel_lookup.csv   license type -> channel (committed)
 docs/       data_guide.md (column dictionary)   findings.md (claims, caveats, limitations)
+            walkthrough.md (technical tour of the whole repository, concepts, exercises)
 outputs/    tables/  figures/       ZIP-level aggregates only
 notebooks/  early exploration scripts
 ```
